@@ -1,0 +1,25 @@
+{
+	"name":			"thirdsense/callhome-plugin-caller",
+	"description":	"Call Home Caller Plugin",
+	"license":		"proprietary",
+	"authors":
+	[
+		{
+			"name": "3rd Sense Pty. Ltd.",
+			"email":"support@thirdsense.com",
+			"homepage": "http://www.thirdsense.com/"
+		}
+	],
+	"minimum-stability": "stable",
+	"require":
+	{
+		"intaglio/nuclio-core": "1.*"
+	},
+	"autoload":
+	{
+		"psr-4":
+		{
+			"thirdsense\\callHome\\plugin\\caller\\": ""
+		}
+	}
+}
