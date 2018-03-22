@@ -29,7 +29,7 @@ namespace thirdsense\callHome\plugin\caller
 		
 		public function sayHi():Map<string,mixed>
 		{
-			$environment=file_get_contents(ROOT_DIR.'.env') ?? 'develop';
+			$environment=trim(file_get_contents(ROOT_DIR.'.env') ?? 'develop');
 			
 			$data=http_build_query
 			(
